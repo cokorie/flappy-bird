@@ -7,4 +7,5 @@ window.onload = function() {
     board = document.getElementById("board");
     board.width = board_w;
     board.height = board_h;
+    context = board.getContext("2d");
 }
