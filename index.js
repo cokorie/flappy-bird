@@ -1,5 +1,5 @@
 let board;
-let board_w;
+let board_w = 400;
 let board_h;
 
 board = document.getElementById("board");
