@@ -15,7 +15,7 @@ window.onload = function() {
 bg_img = new Image();
 bg_img.src = "assets/background.png";
 bg_img.onload = function() {
-    context.drawImage(bg_img, 0, 536);
+    context.drawImage(bg_img, 0, 536, 400, 64);
 }
 
 context.drawImage(bg_img, bg_x_pos);
