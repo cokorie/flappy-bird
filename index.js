@@ -3,7 +3,7 @@ let board_w = 400;
 let board_h = 600;
 let context;
 
-let score;
+let score = 0;
 
 let bg_x_pos = 0;
 
