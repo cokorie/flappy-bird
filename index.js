@@ -11,3 +11,4 @@ window.onload = function() {
 }
 
 bg_img = new Image();
+bg_img.src = "assets/background.png";
