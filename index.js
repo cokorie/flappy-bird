@@ -18,4 +18,4 @@ bg_img.onload = function() {
     context.drawImage(bg_img);
 }
 
-context.drawImage(bg_img);
+context.drawImage(bg_img, bg_x_pos);
