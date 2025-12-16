@@ -17,3 +17,5 @@ bg_img.src = "assets/background.png";
 bg_img.onload = function() {
     context.drawImage(bg_img);
 }
+
+context.drawImage();
