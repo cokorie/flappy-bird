@@ -9,3 +9,5 @@ window.onload = function() {
     board.height = board_h;
     context = board.getContext("2d");
 }
+
+bg_img = new Image();
