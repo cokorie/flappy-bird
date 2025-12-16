@@ -12,6 +12,7 @@ window.onload = function() {
     context = board.getContext("2d");
 }
 
+// for drawing background 
 bg_img = new Image();
 bg_img.src = "assets/background.png";
 bg_img.onload = function() {
