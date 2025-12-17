@@ -12,13 +12,14 @@ window.onload = function() {
     board.width = board_w;
     board.height = board_h;
     context = board.getContext("2d");
+    
+    // for drawing background 
+    bg_img = new Image();
+    bg_img.src = "assets/background.png";
+    bg_img.onload = function() {
+        context.drawImage(bg_img, 0, 536, 400, 64);
+    }
 }
 
-// for drawing background 
-bg_img = new Image();
-bg_img.src = "assets/background.png";
-bg_img.onload = function() {
-    context.drawImage(bg_img, 0, 536, 400, 64);
-}
 
 context.drawImage(bg_img, bg_x_pos);
