@@ -41,4 +41,4 @@ window.onload = function() {
 }
 
 
-context.drawImage(bg_img, bg_x_pos);
+context.drawImage(bg_img, bg_x_pos, 0);
