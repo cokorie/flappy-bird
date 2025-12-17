@@ -35,7 +35,7 @@ window.onload = function() {
     player_img = new Image();
     player_img.src = "assets/player.png";
     player_img.onload = function() {
-        context.drawImage(player_img, player.x,);
+        context.drawImage(player_img, player.x, player.y);
     }
 }
 
