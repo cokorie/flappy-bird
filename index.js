@@ -41,7 +41,7 @@ window.onload = function() {
 }
 
 function update() {
-    
+    requestAnimationFrame(update);
 }
 
 // for drawing background
