@@ -5,6 +5,7 @@ let context;
 
 let player_w;
 let player_h;
+let player_x;
 
 let score = 0;
 
