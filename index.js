@@ -31,6 +31,8 @@ window.onload = function() {
     bg_img.onload = function() {
         context.drawImage(bg_img, 0, 536, 400, 64);
     }
+
+    
 }
 
 
