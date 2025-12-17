@@ -4,6 +4,7 @@ let board_h = 600;
 let context;
 
 let player_w;
+let player_h;
 
 let score = 0;
 
