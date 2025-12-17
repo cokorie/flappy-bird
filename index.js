@@ -16,7 +16,7 @@ let player = {
     x: player_x,
     y: player_y,
     width: player_w,
-    height: player_h;
+    height: player_h
 }
 
 window.onload = function() {
