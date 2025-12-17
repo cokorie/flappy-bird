@@ -42,11 +42,13 @@ window.onload = function() {
 
 function update() {
     requestAnimationFrame(update);
+
+    // for drawing background
+    context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
+    context.drawImage(bg_img, bg_x_pos + 399, 0, 400, 600);
+
 }
 
-// for drawing background
-context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
-context.drawImage(bg_img, bg_x_pos + 399, 0, 400, 600);
 
 // for drawing player
 context.drawImage(player_img, player.x, player.y, player.width, player.height);
