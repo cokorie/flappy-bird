@@ -3,7 +3,7 @@ let board_w = 400;
 let board_h = 600;
 let context;
 
-let player_w;
+let player_w = 57;
 let player_h;
 let player_x;
 let player_y;
@@ -13,7 +13,7 @@ let score = 0;
 let bg_x_pos = 0;
 
 let player = {
-    
+
 }
 
 window.onload = function() {
