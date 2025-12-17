@@ -6,7 +6,7 @@ let context;
 let player_w = 57;
 let player_h = 58;
 let player_x = 172;
-let player_y;
+let player_y = 300;
 
 let score = 0;
 
