@@ -13,7 +13,7 @@ let score = 0;
 let bg_x_pos = 0;
 
 let player = {
-
+    x: player_x;
 }
 
 window.onload = function() {
