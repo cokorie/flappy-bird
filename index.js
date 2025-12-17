@@ -15,6 +15,7 @@ let bg_x_pos = 0;
 let player = {
     x: player_x;
     y: player_y;
+    width: player_w;
 }
 
 window.onload = function() {
