@@ -4,7 +4,7 @@ let board_h = 600;
 let context;
 
 let player_w = 57;
-let player_h;
+let player_h = 58;
 let player_x;
 let player_y;
 
