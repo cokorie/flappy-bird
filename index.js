@@ -12,6 +12,10 @@ let score = 0;
 
 let bg_x_pos = 0;
 
+let player = {
+    
+}
+
 window.onload = function() {
     board = document.getElementById("board");
     board.width = board_w;
