@@ -32,6 +32,7 @@ window.onload = function() {
         context.drawImage(bg_img, 0, 536, 400, 64);
     }
 
+    // for drawing player
     player_img = new Image();
     player_img.src = "assets/player.png";
     player_img.onload = function() {
