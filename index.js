@@ -56,7 +56,7 @@ function update() {
     context.drawImage(bg_img, bg_x_pos + 399, 0, 400, 600);
 
     context.drawImage(ground_img, ground_x_pos, 536, 400, 64);
-    context.drawImage(ground_img, ground_x_pos + 399, 536);
+    context.drawImage(ground_img, ground_x_pos + 399, 536, 400);
 
     // for drawing player
     context.drawImage(player_img, player.x, player.y, player.width, player.height);
