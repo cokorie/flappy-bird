@@ -39,7 +39,7 @@ window.onload = function() {
         context.drawImage(player_img, player.x, player.y, player.width, player.height);
     }
 
-    
+    ground_img = new Image();
 }
 
 function update() {
