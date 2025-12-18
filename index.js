@@ -41,6 +41,9 @@ window.onload = function() {
 
     ground_img = new Image();
     ground_img.src = "assets/ground.png";
+    ground_img.onload = function() {
+        
+    }
 }
 
 function update() {
