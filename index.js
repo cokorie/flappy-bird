@@ -38,6 +38,8 @@ window.onload = function() {
     player_img.onload = function() {
         context.drawImage(player_img, player.x, player.y, player.width, player.height);
     }
+
+    
 }
 
 function update() {
