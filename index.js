@@ -11,7 +11,7 @@ let player_y = 300;
 let score = 0;
 
 let bg_x_pos = 0;
-let ground_x_pos;
+let ground_x_pos = 0;
 
 let player = {
     x: player_x,
