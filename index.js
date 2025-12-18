@@ -40,6 +40,7 @@ window.onload = function() {
         context.drawImage(player_img, player.x, player.y, player.width, player.height);
     }
 
+    // for drawing ground
     ground_img = new Image();
     ground_img.src = "assets/ground.png";
     ground_img.onload = function() {
