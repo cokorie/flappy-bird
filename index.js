@@ -12,7 +12,7 @@ let player_y = 300;
 let velocity = 0;
 
 let pipe_w = 79;
-let pipe_h;
+let pipe_h = 360;
 let pipe_x;
 let pipe_y;
 let gap;
