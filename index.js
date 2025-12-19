@@ -12,6 +12,7 @@ let player_y = 300;
 let velocity = 0;
 
 let pipe_w;
+let pipe_h;
 
 let score = 0;
 
