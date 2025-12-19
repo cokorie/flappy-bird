@@ -55,7 +55,7 @@ window.onload = function() {
         context.drawImage(ground_img, 0, 536, 400, 64);
     }
 
-    requestAnimationFrame();
+    requestAnimationFrame(update);
 }
 
 function update() {
