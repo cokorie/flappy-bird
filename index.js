@@ -58,7 +58,7 @@ function update() {
     ground_x_pos -= ground_scroll_spd;
 
     if(bg_x_pos <= bg_width) {
-        
+        bg_x_pos = 0;
     }
 
     // for drawing background
