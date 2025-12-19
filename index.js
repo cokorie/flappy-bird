@@ -56,6 +56,7 @@ window.onload = function() {
     }
 
     requestAnimationFrame(update);
+    document.addEventListener();
 }
 
 function update() {
