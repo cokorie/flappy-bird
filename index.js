@@ -15,6 +15,7 @@ let pipe_w;
 let pipe_h;
 let pipe_x;
 let pipe_y;
+let gap;
 
 let score = 0;
 
