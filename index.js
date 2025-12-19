@@ -55,6 +55,8 @@ function update() {
     requestAnimationFrame(update);
 
     bg_x_pos -= bg_scroll_spd;
+    ground_x_pos -= ground_scroll_spd;
+
 
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
