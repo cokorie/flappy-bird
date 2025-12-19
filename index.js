@@ -54,6 +54,8 @@ window.onload = function() {
 function update() {
     requestAnimationFrame(update);
 
+    bg_x_pos -= bg_scroll_spd;
+
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
     context.drawImage(bg_img, bg_x_pos + 399, 0, 400, 600);
