@@ -12,6 +12,7 @@ let score = 0;
 
 let bg_x_pos = 0;
 let ground_x_pos = 0;
+let bg_width;
 
 let player = {
     x: player_x,
