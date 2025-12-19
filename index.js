@@ -62,7 +62,7 @@ function update() {
     }
 
     if (ground_x_pos <= bg_width) {
-        
+        ground_x_pos = 0;
     }
 
     // for drawing background
