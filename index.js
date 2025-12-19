@@ -87,7 +87,9 @@ function update() {
     context.drawImage(player_img, player.x, player.y, player.width, player.height);
 
     function jump(key) {
+        if() {
 
+        }
     }
 }
 
