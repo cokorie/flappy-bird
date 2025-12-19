@@ -7,7 +7,7 @@ let player_w = 57;
 let player_h = 58;
 let player_x = 172;
 let player_y = 300;
-let velocity;
+let velocity = 0;
 
 let score = 0;
 
