@@ -70,6 +70,7 @@ function update() {
 
     if (has_moved == true) {
         velocity += 0.25;
+        player.y += velocity; 
     }
 
     // for drawing background
