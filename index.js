@@ -13,7 +13,7 @@ let velocity = 0;
 
 let pipe_w = 79;
 let pipe_h = 360;
-let pipe_x;
+let pipe_x = 600;
 let pipe_y;
 let gap;
 
