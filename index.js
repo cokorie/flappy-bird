@@ -109,6 +109,8 @@ function update() {
     // for drawing player
     context.drawImage(player_img, player.x, player.y, player.width, player.height);
 
+    context.drawImage(pipe_down_img)
+
 }
 
 function jump(key) {
