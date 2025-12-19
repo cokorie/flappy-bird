@@ -91,7 +91,7 @@ function update() {
             has_moved = true;
         }
 
-        if () {
+        if (key.code == "Space") {
 
         }
     }
