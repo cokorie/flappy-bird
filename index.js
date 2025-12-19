@@ -13,6 +13,7 @@ let score = 0;
 let bg_x_pos = 0;
 let ground_x_pos = 0;
 let bg_scroll_spd;
+let ground_scroll_spd;
 let bg_width = 400;
 
 let player = {
