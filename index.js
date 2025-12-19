@@ -11,6 +11,8 @@ let player_x = 172;
 let player_y = 300;
 let velocity = 0;
 
+let pipe_w;
+
 let score = 0;
 
 let bg_x_pos = 0;
