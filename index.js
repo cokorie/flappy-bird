@@ -93,6 +93,7 @@ function update() {
 
         if (key.code == "Space") {
             velocity = -6;
+            woosh_sound.currentTime = 0;
         }
     }
 }
