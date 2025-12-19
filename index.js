@@ -15,7 +15,7 @@ let pipe_w = 79;
 let pipe_h = 360;
 let pipe_x = 600;
 let pipe_y = getRandonInt(30, 280);
-let gap;
+let gap = 220;
 
 let score = 0;
 
