@@ -70,7 +70,7 @@ window.onload = function() {
     pipe_down_img = new Image();
     pipe_down_img.src = "assets/pipe_down.png";
     pipe_down_img.onload = function() {
-        context.drawImage(pipe_down_img, 200, 200);
+        context.drawImage(pipe_down_img, 200, 200, 79);
     }
 
     requestAnimationFrame(update);
