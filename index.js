@@ -14,6 +14,7 @@ let velocity = 0;
 let pipe_w;
 let pipe_h;
 let pipe_x;
+let pipe_y;
 
 let score = 0;
 
