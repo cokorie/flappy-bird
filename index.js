@@ -17,6 +17,8 @@ let bg_scroll_spd = 0.5;
 let ground_scroll_spd = 1;
 let bg_width = 400;
 
+let has_moved;
+
 let player = {
     x: player_x,
     y: player_y,
