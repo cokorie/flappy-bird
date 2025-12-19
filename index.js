@@ -62,6 +62,9 @@ window.onload = function() {
 
     pipe_up_img = new Image();
     pipe_up_img.src = "assets/pipe_up.png";
+    pipe_up_img.onload = function() {
+        
+    }
 
     requestAnimationFrame(update);
     document.addEventListener("keydown", jump);
