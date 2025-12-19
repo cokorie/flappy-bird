@@ -88,7 +88,7 @@ function update() {
 
     function jump(key) {
         if(has_moved == false) {
-            
+            has_moved = true;
         }
     }
 }
