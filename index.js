@@ -56,7 +56,7 @@ window.onload = function() {
     }
 
     requestAnimationFrame(update);
-    document.addEventListener("keydown");
+    document.addEventListener("keydown", jump);
 }
 
 function update() {
