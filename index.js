@@ -67,6 +67,8 @@ window.onload = function() {
         context.drawImage(pipe_up_img, 200, 200, 79, 300);
     }
 
+    
+
     requestAnimationFrame(update);
     document.addEventListener("keydown", jump);
 }
