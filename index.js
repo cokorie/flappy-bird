@@ -69,7 +69,7 @@ function update() {
     }
 
     if (has_moved == true) {
-
+        velocity += 0.25;
     }
 
     // for drawing background
