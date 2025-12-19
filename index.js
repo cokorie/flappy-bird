@@ -60,6 +60,7 @@ window.onload = function() {
         context.drawImage(ground_img, 0, 536, 400, 64);
     }
 
+    // for drawing pipe pointing upward
     pipe_up_img = new Image();
     pipe_up_img.src = "assets/pipe_up.png";
     pipe_up_img.onload = function() {
