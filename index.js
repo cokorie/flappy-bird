@@ -89,16 +89,17 @@ function update() {
     // for drawing player
     context.drawImage(player_img, player.x, player.y, player.width, player.height);
 
-    function jump(key) {
-        if (has_moved == false) {
-            has_moved = true;
-        }
+}
 
-        if (key.code == "Space") {
-            velocity = -6;
-            woosh_sound.currentTime = 0;
-            woosh_sound.play();
-        }
+function jump(key) {
+    if (has_moved == false) {
+        has_moved = true;
+    }
+
+    if (key.code == "Space") {
+        velocity = -6;
+        woosh_sound.currentTime = 0;
+        woosh_sound.play();
     }
 }
 
