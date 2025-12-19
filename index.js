@@ -3,7 +3,7 @@ let board_w = 400;
 let board_h = 600;
 let context;
 
-let woosh_sound;
+let woosh_sound = new Audio('assets/woosh.wav');
 
 let player_w = 57;
 let player_h = 58;
