@@ -92,7 +92,7 @@ function update() {
         }
 
         if (key.code == "Space") {
-
+            velocity = -6;
         }
     }
 }
