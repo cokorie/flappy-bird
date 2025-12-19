@@ -11,7 +11,7 @@ let player_x = 172;
 let player_y = 300;
 let velocity = 0;
 
-let pipe_w;
+let pipe_w = 79;
 let pipe_h;
 let pipe_x;
 let pipe_y;
