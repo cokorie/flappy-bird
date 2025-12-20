@@ -138,7 +138,7 @@ function jump(key) {
 }
 
 function getRandonInt() {
-    
+    return;
 }
 
 function pipe_respawn() {
