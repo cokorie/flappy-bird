@@ -147,3 +147,7 @@ function pipe_reset() {
     pipe_y = getRandonInt(30, 280);
     pipe_scored = false;
 }
+
+function game_over() {
+    
+}
