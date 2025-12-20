@@ -138,7 +138,7 @@ function jump(key) {
 }
 
 function getRandonInt() {
-    return;
+    return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function pipe_respawn() {
