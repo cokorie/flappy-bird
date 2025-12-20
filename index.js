@@ -145,4 +145,5 @@ function pipe_respawn() {
 function pipe_reset() {
     pipe_x = 600;
     pipe_y = getRandonInt(30, 280);
+    pipe_scored;
 }
