@@ -100,7 +100,10 @@ function update() {
         player.y += velocity; 
     }
 
+    // for moving pipes during game
     pipe_x += pipe_velocity;
+
+
 
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
