@@ -161,3 +161,7 @@ function game_over() {
     pipe_reset();
     slap_sound.play();
 }
+
+function checkCollision() {
+    
+}
