@@ -17,6 +17,7 @@ let pipe_x = 600;
 let pipe_y = getRandonInt(30, 280);
 let gap = 220;
 let pipe_velocity = -1.2;
+let pipe_scored;
 
 let score = 0;
 
@@ -100,7 +101,7 @@ function update() {
     }
 
     pipe_x += pipe_velocity;
-    
+
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
     context.drawImage(bg_img, bg_x_pos + 399, 0, 400, 600);
