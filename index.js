@@ -131,5 +131,5 @@ function jump(key) {
 }
 
 function pipe_respawn() {
-    
+    pipe_x;
 }
