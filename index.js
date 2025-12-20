@@ -151,4 +151,5 @@ function pipe_reset() {
 function game_over() {
     player.x = 172;
     player.y = 300;
+    score;
 }
