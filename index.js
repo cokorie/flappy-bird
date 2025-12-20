@@ -152,4 +152,5 @@ function game_over() {
     player.x = 172;
     player.y = 300;
     score = 0;
+    has_moved
 }
