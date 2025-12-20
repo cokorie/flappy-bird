@@ -109,7 +109,7 @@ function update() {
     // for drawing player
     context.drawImage(player_img, player.x, player.y, player.width, player.height);
 
-    context.drawImage(pipe_down_img, pipe_x, 0 - pipe_h + pipe_y)
+    context.drawImage(pipe_down_img, pipe_x, 0 - pipe_h + pipe_y, pipe_w)
 
 }
 
