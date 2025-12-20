@@ -16,7 +16,7 @@ let pipe_h = 360;
 let pipe_x = 600;
 let pipe_y = getRandonInt(30, 280);
 let gap = 220;
-let pipe_velocity;
+let pipe_velocity = -1.2;
 
 let score = 0;
 
