@@ -155,4 +155,5 @@ function game_over() {
     score = 0;
     has_moved = false;
     pipe_reset();
+    slap_sound.play();
 }
