@@ -103,7 +103,7 @@ function update() {
     // for moving pipes during game
     pipe_x += pipe_velocity;
 
-    if (pipe_x < pipe_w) {
+    if (pipe_x < -pipe_w) {
         pipe_respawn();
     }
 
