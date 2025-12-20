@@ -99,6 +99,8 @@ function update() {
         player.y += velocity; 
     }
 
+    pipe_x += pipe_velocity;
+    
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
     context.drawImage(bg_img, bg_x_pos + 399, 0, 400, 600);
