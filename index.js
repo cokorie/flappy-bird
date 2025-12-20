@@ -132,5 +132,5 @@ function jump(key) {
 
 function pipe_respawn() {
     pipe_x = 400;
-    pipe_y;
+    pipe_y =  getRandonInt(30, 280);
 }
