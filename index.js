@@ -162,6 +162,6 @@ function game_over() {
     slap_sound.play();
 }
 
-function checkCollision() {
-    
+function checkCollision(x1,x2) {
+
 }
