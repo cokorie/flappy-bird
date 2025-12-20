@@ -103,7 +103,9 @@ function update() {
     // for moving pipes during game
     pipe_x += pipe_velocity;
 
+    if () {
 
+    }
 
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
