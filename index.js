@@ -104,7 +104,7 @@ function update() {
     pipe_x += pipe_velocity;
 
     if (pipe_x < pipe_w) {
-        
+        pipe_respawn();
     }
 
     // for drawing background
