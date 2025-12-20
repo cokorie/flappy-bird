@@ -149,5 +149,5 @@ function pipe_reset() {
 }
 
 function game_over() {
-    
+    player.x = 172;
 }
