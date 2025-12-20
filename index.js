@@ -103,8 +103,8 @@ function update() {
     // for moving pipes during game
     pipe_x += pipe_velocity;
 
-    if () {
-
+    if (pipe_x < pipe_w) {
+        
     }
 
     // for drawing background
