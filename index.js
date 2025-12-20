@@ -163,5 +163,5 @@ function game_over() {
 }
 
 function checkCollision(x1, x2, y1, y2, w1, w2, h1, h2) {
-
+    return;
 }
