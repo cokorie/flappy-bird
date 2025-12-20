@@ -137,6 +137,10 @@ function jump(key) {
     }
 }
 
+function getRandonInt() {
+    
+}
+
 function pipe_respawn() {
     pipe_x = 400;
     pipe_y =  getRandonInt(30, 280);
