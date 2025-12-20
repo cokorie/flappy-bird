@@ -143,5 +143,5 @@ function pipe_respawn() {
 }
 
 function pipe_reset() {
-    
+    pipe_x;
 }
