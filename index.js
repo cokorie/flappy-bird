@@ -115,7 +115,7 @@ function update() {
         game_over();
     }
 
-    if (pipe_scored == false) {
+    if (pipe_scored == false && player.x > pipe_x) {
 
     }
 
