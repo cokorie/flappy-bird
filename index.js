@@ -5,6 +5,7 @@ let context;
 
 let woosh_sound = new Audio('assets/woosh.wav');
 let slap_sound = new Audio('assets/slap.wav');
+let score_sound;
 
 let player_w = 57;
 let player_h = 58;
@@ -118,6 +119,7 @@ function update() {
     if (pipe_scored == false && player.x > pipe_x) {
         score += 1;
         pipe_scored = true;
+
     }
 
     // to clear game for next play
