@@ -110,7 +110,7 @@ function update() {
     }
 
     if (checkCollision(player.x + 3, player.y + 3, 52, 52, pipe_x, pipe_y - 360, 79, 360) || 
-        checkCollision(player.x + 3, player.y + 3, 52, 52, pipe_x, pipe_y, 79, )) {
+        checkCollision(player.x + 3, player.y + 3, 52, 52, pipe_x, pipe_y, 79, 360)) {
         game_over();
     }
 
