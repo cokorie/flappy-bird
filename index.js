@@ -115,8 +115,8 @@ function update() {
         game_over();
     }
 
-    if () {
-        
+    if (pipe_scored == false) {
+
     }
 
     // to clear game for next play
