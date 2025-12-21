@@ -109,7 +109,7 @@ function update() {
         pipe_respawn();
     }
 
-    if (checkCollision(player.x + 3, player.y + 3, 52)) {
+    if (checkCollision(player.x + 3, player.y + 3, 52, 52)) {
         game_over();
     }
 
