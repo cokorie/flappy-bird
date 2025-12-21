@@ -147,6 +147,8 @@ function update() {
     if (player.y < -64 || player.y > 536) {
         game_over();
     }
+
+    context.fillStyle;
 }
 
 function jump(key) {
