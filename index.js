@@ -115,6 +115,7 @@ function update() {
         game_over();
     }
 
+    // to clear game for next play
     context.clearRect(0, 0, board.width, board.height);
 
     // for drawing background
