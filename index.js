@@ -132,6 +132,7 @@ function update() {
     // for drawing up pipes
     context.drawImage(pipe_up_img, pipe_x, pipe_y + gap, pipe_w, pipe_h);
 
+    // for endind game with jumping too high or low
     if (player.y < -64 || player.y > 536) {
         game_over();
     }
