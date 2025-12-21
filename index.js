@@ -110,7 +110,8 @@ function update() {
     }
 
     if (checkCollision(player.x + 3, player.y + 3, 52, 52, pipe_x, pipe_y - 360, 79, 360) || 
-        checkCollision(player.x + 3, player.y + 3, 52, 52, pipe_x, pipe_y + gap, 79, 360)) {
+        checkCollision(player.x + 3, player.y + 3, 52, 52, pipe_x, pipe_y + gap, 79, 360)
+    ) {
         game_over();
     }
 
@@ -125,6 +126,7 @@ function update() {
     // for drawing player
     context.drawImage(player_img, player.x, player.y, player.width, player.height);
 
+    // for drawing down pipes
     context.drawImage(pipe_down_img, pipe_x, 0 - pipe_h + pipe_y, pipe_w, pipe_h);
     context.drawImage(pipe_up_img, pipe_x, pipe_y + gap, pipe_w, pipe_h);
 
