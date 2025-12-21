@@ -115,6 +115,10 @@ function update() {
         game_over();
     }
 
+    if () {
+        
+    }
+
     // to clear game for next play
     context.clearRect(0, 0, board.width, board.height);
 
