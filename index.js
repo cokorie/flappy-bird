@@ -119,7 +119,7 @@ function update() {
     if (pipe_scored == false && player.x > pipe_x) {
         score += 1;
         pipe_scored = true;
-
+        score_sound.play();
     }
 
     // to clear game for next play
