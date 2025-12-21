@@ -115,7 +115,7 @@ function update() {
         game_over();
     }
 
-    context.clearRect(0, 0);
+    context.clearRect(0, 0, board.width);
 
     // for drawing background
     context.drawImage(bg_img, bg_x_pos, 0, 400, 600);
