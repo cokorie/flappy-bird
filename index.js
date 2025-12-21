@@ -149,6 +149,7 @@ function update() {
     }
 
     context.fillStyle = "White";
+    context.font;
 }
 
 function jump(key) {
