@@ -116,7 +116,7 @@ function update() {
     }
 
     if (pipe_scored == false && player.x > pipe_x) {
-
+        score += 1;
     }
 
     // to clear game for next play
