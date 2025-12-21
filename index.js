@@ -110,7 +110,7 @@ function update() {
     }
 
     if () {
-        
+        game_over();
     }
 
     // for drawing background
