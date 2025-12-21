@@ -148,7 +148,7 @@ function update() {
         game_over();
     }
 
-    context.fillStyle;
+    context.fillStyle = "White";
 }
 
 function jump(key) {
