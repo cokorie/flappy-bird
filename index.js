@@ -132,6 +132,9 @@ function update() {
     // for drawing up pipes
     context.drawImage(pipe_up_img, pipe_x, pipe_y + gap, pipe_w, pipe_h);
 
+    if () {
+
+    }
 }
 
 function jump(key) {
