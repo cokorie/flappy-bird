@@ -128,6 +128,8 @@ function update() {
 
     // for drawing down pipes
     context.drawImage(pipe_down_img, pipe_x, 0 - pipe_h + pipe_y, pipe_w, pipe_h);
+
+    // for drawing up pipes
     context.drawImage(pipe_up_img, pipe_x, pipe_y + gap, pipe_w, pipe_h);
 
 }
