@@ -150,6 +150,7 @@ function update() {
 
     context.fillStyle = "White";
     context.font = "60px Reg";
+    context.fillText();
 }
 
 function jump(key) {
