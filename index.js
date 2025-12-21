@@ -149,7 +149,7 @@ function update() {
     }
 
     context.fillStyle = "White";
-    context.font;
+    context.font = "60px Reg";
 }
 
 function jump(key) {
