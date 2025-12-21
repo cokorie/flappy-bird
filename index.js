@@ -116,6 +116,7 @@ function update() {
         game_over();
     }
 
+    // for tallying each score
     if (pipe_scored == false && player.x > pipe_x) {
         score += 1;
         pipe_scored = true;
