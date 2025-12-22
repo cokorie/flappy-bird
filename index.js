@@ -156,6 +156,7 @@ function update() {
         game_over();
     }
 
+    // for scoring and game text
     context.fillStyle = "White";
     context.font = "60px Reg";
     context.fillText(score, 181, 80);
