@@ -199,6 +199,7 @@ function pipe_reset() {
     pipe_scored = false;
 }
 
+// used in assigning random pipe placement
 function getRandonInt() {
     return Math.floor(Math.random() * (max - min)) + min;
 }
