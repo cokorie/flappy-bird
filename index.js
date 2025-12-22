@@ -4,6 +4,7 @@ let board_w = 400;
 let board_h = 600;
 let context;
 
+// for game sounds
 let woosh_sound = new Audio('assets/woosh.wav');
 let slap_sound = new Audio('assets/slap.wav');
 let score_sound = new Audio('assets/score.wav');
