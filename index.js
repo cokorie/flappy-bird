@@ -27,6 +27,7 @@ let pipe_scored = false;
 
 let score = 0;
 
+// for background and ground placements
 let bg_x_pos = 0;
 let ground_x_pos = 0;
 let bg_scroll_spd = 0.5;
