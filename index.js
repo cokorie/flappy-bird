@@ -185,10 +185,7 @@ function game_over() {
     slap_sound.play();
 }
 
-function getRandonInt() {
-    return Math.floor(Math.random() * (max - min)) + min;
-}
-
+// adding pipes in game functionality
 function pipe_respawn() {
     pipe_x = 400;
     pipe_y =  getRandonInt(30, 280);
@@ -199,6 +196,10 @@ function pipe_reset() {
     pipe_x = 600;
     pipe_y = getRandonInt(30, 280);
     pipe_scored = false;
+}
+
+function getRandonInt() {
+    return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function checkCollision(x1, y1, w1, h1, x2, y2, w2, h2) {
