@@ -9,6 +9,7 @@ let woosh_sound = new Audio('assets/woosh.wav');
 let slap_sound = new Audio('assets/slap.wav');
 let score_sound = new Audio('assets/score.wav');
 
+// for player placement
 let player_w = 57;
 let player_h = 58;
 let player_x = 172;
