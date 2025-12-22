@@ -1,3 +1,4 @@
+// for game window
 let board;
 let board_w = 400;
 let board_h = 600;
