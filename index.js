@@ -92,6 +92,7 @@ window.onload = function() {
 function update() {
     requestAnimationFrame(update);
 
+    // for background and ground movements
     bg_x_pos -= bg_scroll_spd;
     ground_x_pos -= ground_scroll_spd;
 
