@@ -200,7 +200,7 @@ function pipe_reset() {
 }
 
 // used in assigning random pipe placement
-function getRandonInt() {
+function getRandonInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
