@@ -192,6 +192,7 @@ function pipe_respawn() {
     pipe_scored = false;
 }
 
+// for pipe placement through game
 function pipe_reset() {
     pipe_x = 600;
     pipe_y = getRandonInt(30, 280);
