@@ -175,6 +175,16 @@ function jump(key) {
     }
 }
 
+// end game functionality
+function game_over() {
+    player.x = 172;
+    player.y = 300;
+    score = 0;
+    has_moved = false;
+    pipe_reset();
+    slap_sound.play();
+}
+
 function getRandonInt() {
     return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -189,15 +199,6 @@ function pipe_reset() {
     pipe_x = 600;
     pipe_y = getRandonInt(30, 280);
     pipe_scored = false;
-}
-
-function game_over() {
-    player.x = 172;
-    player.y = 300;
-    score = 0;
-    has_moved = false;
-    pipe_reset();
-    slap_sound.play();
 }
 
 function checkCollision(x1, y1, w1, h1, x2, y2, w2, h2) {
