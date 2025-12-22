@@ -36,6 +36,7 @@ let bg_width = 400;
 
 let has_moved = false;
 
+// player object fields
 let player = {
     x: player_x,
     y: player_y,
