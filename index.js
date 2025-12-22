@@ -16,6 +16,7 @@ let player_x = 172;
 let player_y = 300;
 let velocity = 0;
 
+// for pipe placement
 let pipe_w = 79;
 let pipe_h = 360;
 let pipe_x = 600;
