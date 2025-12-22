@@ -162,6 +162,7 @@ function update() {
     context.fillText(score, 181, 80);
 }
 
+// for jump functionality
 function jump(key) {
     if (has_moved == false) {
         has_moved = true;
