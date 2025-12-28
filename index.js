@@ -169,7 +169,7 @@ function jump(key) {
     }
 
     if (key.code == "Space") {
-        velocity = -6;
+        velocity = -3;
         woosh_sound.currentTime = 0;
         woosh_sound.play();
     }
