@@ -39,4 +39,4 @@ Please click into the following website link to check out my rebuild of Flappy B
   * Game files including the HTML, CSS, JavaScript and media files used to build this version of the game
 
 ##### Gameplay Image
-![FLAPPY BIRD](/screenshots/flappy-bird.png)
+![Flappy Bird](/screenshots/flappy-bird.png)
