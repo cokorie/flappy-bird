@@ -30,7 +30,7 @@ let score = 0;
 // for background and ground placements
 let bg_x_pos = 0;
 let ground_x_pos = 0;
-let bg_scroll_spd = 0.5;
+let bg_scroll_spd = 1.5;
 let ground_scroll_spd = 1;
 let bg_width = 400;
 
